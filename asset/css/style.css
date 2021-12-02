@@ -8,24 +8,23 @@
   }
   
   img{
-    max-width: 100%;
+    max-width:100%;
   }
   
   .categorias{
-    background-color: #3d444b;
+    background-color: #098181;
     padding: 100px 30px;
   }
   
   .categorias h1{
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-bottom: 50px;
     margin-top: 0;
+    font-family:fantasy;
+
   }
   
-  h3{
-     text-align: center;
-  }
   .flex{
     max-width: 1100px;
     margin: 0 auto;
@@ -41,7 +40,19 @@
     border-radius: 3px;
   }
   
-  .info{
-    padding: 5px;
-    background: #fff;
-  }
+  button{
+    font-size: 0.75rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    color: #fffefe;
+    border-radius: 10px;
+    border: 1px rgb(59, 59, 59);
+    padding: 1rem;
+    width: 300px;
+    background-color:rgb(0, 0, 0);
+}
+button:hover{
+  background-color: rgb(156, 238, 204);
+  color:rgb(0, 0, 0);
+  border: 1px solid rgb(36, 124, 117);
+}
