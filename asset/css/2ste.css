@@ -1,0 +1,64 @@
+body{
+    margin-top: 0;
+}
+header{
+    margin-top:0;
+    padding:0;
+}
+
+header h1{
+    margin-bottom:0;
+    padding:0;
+}
+h1{
+    font-size: 3rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(156, 238, 204);
+    color: rgb(0, 0, 0);
+    padding: 0;
+    display: block;
+    margin-top:0;
+    margin-bottom: 20px;
+}   
+
+h2{
+    font-size: 2rem;
+    font-family:cursive;
+}
+body{
+    background-color: #098181;
+    padding: 0;
+  }
+
+
+.flex-container1{
+    display: flex;
+    /*flex-wrap: nowrap; Flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: center;
+    padding:0px;
+    margin: 0;
+    list-style: none;
+}
+
+.contenedor1{
+    display: flex;
+    /*flex-wrap: nowrap; Flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content:space-around;
+    padding:0;
+    margin: 0;
+}
+
+.flex-container1 .flex-item {
+    width: 250px;
+    height: 300px;
+    line-height: 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.flex-container1 .flex-item img {
+    width: 250px;
+    height: 300px;
+}
